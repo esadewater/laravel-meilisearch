@@ -2,9 +2,9 @@
 
 namespace ESadewater\LaravelMeilisearch\Tests;
 
+use ESadewater\LaravelMeilisearch\LaravelMeilisearchServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use ESadewater\LaravelMeilisearch\LaravelMeilisearchServiceProvider;
 
 class TestCase extends Orchestra
 {

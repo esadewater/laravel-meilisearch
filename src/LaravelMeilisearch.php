@@ -30,7 +30,7 @@ class LaravelMeilisearch
                 if (class_exists($class)) {
                     $reflection = new ReflectionClass($class);
                     $valid = $reflection->isSubclassOf(Model::class) &&
-                        !$reflection->isAbstract();
+                        ! $reflection->isAbstract();
                 }
 
                 return $valid;
