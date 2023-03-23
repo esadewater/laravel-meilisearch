@@ -10,7 +10,7 @@ Laravel Scout.
 
 ## Prerequisites
 
-You need to have [Laravel Scout](https://laravel.com/docs/10.x/scout) installed and configured. If you don't have done
+You need to have [Laravel Scout](https://laravel.com/docs/10.x/scout) installed and configured. If you haven't done
 yet, you can skip
 the "[Configuring Filterable Data & Index Settings (Meilisearch)](https://laravel.com/docs/10.x/scout#configuring-filterable-data-for-meilisearch)"
 -part while setting everything up.
