@@ -5,13 +5,14 @@ namespace ESadewater\LaravelMeilisearch;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
+use ReflectionClass;
 
 class LaravelMeilisearch
 {
     /**
      * Get the classes of all models
      */
-    private function getAllModelClasses(): Collection
+    public function getAllModelClasses(): Collection
     {
         // Get all the model files
         return collect(File::allFiles(app_path('Models')))
